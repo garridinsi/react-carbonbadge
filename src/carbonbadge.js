@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const Carbonbadge = ({ darkMode }) => {
+const CarbonBadge = ({ darkMode }) => {
   useEffect(() => {
     const script = document.createElement("script");
 
@@ -22,4 +22,4 @@ const Carbonbadge = ({ darkMode }) => {
   );
 };
 
-export default Carbonbadge;
+export default CarbonBadge;
