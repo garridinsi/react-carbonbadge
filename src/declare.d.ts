@@ -1,10 +1,10 @@
 import * as React from "react";
 
-type Carbonbadge = React.FC<{
+type CarbonBadge = React.FC<{
   // Whether the badge should be in dark mode
   darkMode?: boolean;
 }>;
 
-declare const carbonbadge: Carbonbadge;
+declare const carbonbadge: CarbonBadge;
 
 export default carbonbadge;
