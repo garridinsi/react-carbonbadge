@@ -12,7 +12,7 @@
   "types": "./src/declare.d.ts",
   "author": "Eneko Garrido, Ivo Bathke",
   "scripts": {
-    "publish-npm": "publish --access public "
+    "publish-npm": "npm publish --access public"
   },
   "devDependencies": {
     "react": "^17.0.2"
