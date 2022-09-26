@@ -1,6 +1,10 @@
 import React, { useEffect } from "react";
 
-const CarbonBadge = ({ darkMode }) => {
+export interface CarbonBadgeProps {
+  darkMode: boolean;
+}
+
+const CarbonBadge = (props: CarbonBadgeProps) => {
   useEffect(() => {
     const script = document.createElement("script");
 
@@ -17,7 +21,7 @@ const CarbonBadge = ({ darkMode }) => {
   return (
     <div
       id="wcb"
-      className={`wcb carbonbadge${darkMode ? ` wcb-d` : ""}`}
+      className={`wcb carbonbadge${props.darkMode ? ` wcb-d` : ""}`}
     ></div>
   );
 };
