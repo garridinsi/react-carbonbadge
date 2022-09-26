@@ -1,34 +1,34 @@
 {
-  "name": "react-carbonbadge",
-  "version": "1.0.1",
+  "name": "@garridinsi/react-carbonbadge",
+  "version": "1.1.3",
   "license": "MIT",
-  "description": "React component for https://www.websitecarbon.com/badge/",
-  "homepage": "https://github.com/ivoba/react-carbonbadge",
-  "main": "index.js",
+  "description": "React component for https://www.websitecarbon.com/badge/ forked from https://github.com/ivoba/react-carbonbadge",
+  "homepage": "https://github.com/garridinsi/react-carbonbadge",
+  "main": "src/carbonbadge.js",
   "files": [
-    "index.js",
-    "index.d.ts"
+    "src/carbonbadge.js",
+    "src/declare.d.ts"
   ],
-  "author": "Ivo Bathke",
-  "scripts": {
-    "build": "babel --out-file ./index.js src"
-  },
+  "types": "./src/declare.d.ts",
+  "author": "Eneko Garrido, Ivo Bathke",
+  "scripts": {},
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.6",
-    "@babel/plugin-transform-spread": "^7.8.3",
-    "@babel/preset-env": "^7.9.6",
-    "@babel/preset-react": "^7.9.4",
-    "prop-types": "^15.7.2",
-    "react": "^16"
+    "react": "^17.0.2"
   },
   "peerDependencies": {
-    "react": "^16"
+    "react": "^17.0.2"
   },
   "keywords": [
     "react",
     "react-component",
     "carbonbadge",
     "websitecarbon"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garridinsi/react-carbonbadge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/garridinsi/react-carbonbadge/issues"
+  }
 }

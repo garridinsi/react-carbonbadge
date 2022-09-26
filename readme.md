@@ -1,16 +1,18 @@
 # React Websitecarbon Badge component
 
-React component for https://www.websitecarbon.com/badge/
+React component for https://www.websitecarbon.com/badge/ forked from https://github.com/ivoba/react-carbonbadge
 
 ## Installation
+
 Install via npm or yarn
 
 ```
-npm install react-carbonbadge --save
-yarn add react-carbonbadge
+npm install @garridinsi/react-carbonbadge --save
+yarn add @garridinsi/react-carbonbadge
 ```
+
 ## Usage
 
-    import Carbonbadge from "react-carbonbadge"
+    import CarbonBadge from "@garridinsi/react-carbonbadge"
     ...
-    <Carbonbadge darkMode={true} />
+    <CarbonBadge darkMode={true} />
