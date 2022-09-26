@@ -1,6 +1,6 @@
 {
   "name": "@garridinsi/react-carbonbadge",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "license": "MIT",
   "description": "React component for https://www.websitecarbon.com/badge/ forked from https://github.com/ivoba/react-carbonbadge",
   "homepage": "https://github.com/garridinsi/react-carbonbadge",
@@ -13,7 +13,7 @@
     "@rollup/plugin-node-resolve": "^13.0.6",
     "@rollup/plugin-typescript": "^8.3.0",
     "@types/react": "^17.0.34",
-    "react": "^17.0.2",
+    "react": "^17.0.1",
     "rollup": "^2.60.0",
     "rollup-plugin-dts": "^4.0.1",
     "tslib": "^2.4.0",
