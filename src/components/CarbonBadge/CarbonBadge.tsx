@@ -4,7 +4,7 @@ export interface CarbonBadgeProps {
   darkMode: boolean;
 }
 
-const CarbonBadge = (props: CarbonBadgeProps) => {
+function useScript() {
   useEffect(() => {
     const script = document.createElement("script");
 
@@ -17,12 +17,17 @@ const CarbonBadge = (props: CarbonBadgeProps) => {
       document.body.removeChild(script);
     };
   }, []);
+}
 
+const CarbonBadge = (props: CarbonBadgeProps) => {
   return (
-    <div
-      id="wcb"
-      className={`wcb carbonbadge${props.darkMode ? ` wcb-d` : ""}`}
-    ></div>
+    <div>
+      <div
+        id="wcb"
+        className={`wcb carbonbadge${props.darkMode ? ` wcb-d` : ""}`}
+      ></div>
+      {useScript()}
+    </div>
   );
 };
 

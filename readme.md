@@ -13,6 +13,6 @@ yarn add @garridinsi/react-carbonbadge
 
 ## Usage
 
-    import CarbonBadge from "@garridinsi/react-carbonbadge"
+    import {CarbonBadge} from "@garridinsi/react-carbonbadge"
     ...
     <CarbonBadge darkMode={true} />
