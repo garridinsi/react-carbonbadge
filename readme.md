@@ -1,6 +1,6 @@
 # React Websitecarbon Badge component
 
-React component for https://www.websitecarbon.com/badge/ forked from https://github.com/ivoba/react-carbonbadge updated to be compatible with React 18
+React component for https://www.websitecarbon.com/badge/ forked from https://github.com/ivoba/react-carbonbadge
 
 ## Installation
 
