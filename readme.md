@@ -7,12 +7,12 @@ React component for https://www.websitecarbon.com/badge/ forked from https://git
 Install via npm or yarn
 
 ```
-npm install react-carbonbadge --save
-yarn add react-carbonbadge
+npm install @garridinsi/react-carbonbadge --save
+yarn add @garridinsi/react-carbonbadge
 ```
 
 ## Usage
 
-    import CarbonBadge from "react-carbonbadge"
+    import CarbonBadge from "@garridinsi/react-carbonbadge"
     ...
     <CarbonBadge darkMode={true} />

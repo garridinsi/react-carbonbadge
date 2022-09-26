@@ -1,6 +1,6 @@
 {
   "name": "@garridinsi/react-carbonbadge",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "React component for https://www.websitecarbon.com/badge/ forked from https://github.com/ivoba/react-carbonbadge updated to be compatible with React 18",
   "homepage": "https://github.com/garridinsi/react-carbonbadge",
